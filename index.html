@@ -3,44 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabela</title>
-    <style>
-        table, th, td {
-            border: 1px solid black;
-        }
-    </style>
+    <title>Desafio - Tabela</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Tabela</h1>
 
+    <h3>Moda</h3>
     <table>
         <thead>
-            <tr>
-                <th>Nome</th>
-                <th>Idade</th>
-                <th>Informações adicionais</th>
+            <tr class="cabecalho-moda">
+                <th>Produto</th>
+                <th>Tamanho</th>
+                <th>Valor</th>
             </tr>
         </thead>
-
         <tbody>
-            <tr> <!-- table row -->
-                <td colspan="3">Jonas</td> <!-- table data -->
-                <td>25</td>
-                <td>Estudante</td>
+            <tr class="dados">
+                <td>Camiseta</td>
+                <td>M</td>
+                <td>R$ 49,00</td>
             </tr>
             <tr>
-                <td>Renata</td>
-                <td>26</td>
-                <td>Web Developer</td>
+                <td>Tênis</td>
+                <td>42</td>
+                <td>R$ 5,00</td>
             </tr>
         </tbody>
-        
-        <tfoot>
-            <td colspan="2">Total:</td>
-            <td>2</td>
-        </tfoot>
-       
     </table>
-    
+
+    <h3>Casa</h3>
+    <table>
+        <thead class="cabecalho-casa">
+            <tr>
+                <th>Produto</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sofá</td>
+                <td>R$ 1.200,00</td>
+            </tr>
+            <tr>
+                <td>Televisão</td>
+                <td>R$ 5.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+
 </body>
 </html>
